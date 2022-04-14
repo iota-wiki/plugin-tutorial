@@ -38,7 +38,12 @@ const config = requireGlob.sync(
 
 module.exports = {
   plugins: [
-    path.resolve(__dirname, "../lib/page.js"),
+    [
+      path.resolve(__dirname, "../lib/page.js"),
+      {
+        route: "/",
+      },
+    ],
     "@docusaurus/plugin-ideal-image",
     ...config.plugins,
   ],
