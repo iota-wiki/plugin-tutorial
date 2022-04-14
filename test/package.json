@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npx iota-wiki start"
+  },
+  "dependencies": {
+    "require-glob": "^4.0.0"
+  },
+  "devDependencies": {
+    "iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
+  },
+  "workspaces": [
+    "tutorials/*"
+  ]
+}
