@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   plugins: [
     [
-      path.resolve(__dirname, "../../../lib/plugin.js"),
+      path.resolve(__dirname, "../../../lib/index.js"),
       {
         title: "EVM Tutorial",
         description:

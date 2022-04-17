@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   plugins: [
     [
-      path.resolve(__dirname, "../../../lib/plugin.js"),
+      path.resolve(__dirname, "../../../lib/index.js"),
       {
         title: "IOTA Client WASM Tutorial",
         description: "This tutorial shows you how to use the WASM IOTA client",

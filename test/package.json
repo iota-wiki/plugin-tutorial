@@ -4,11 +4,10 @@
   "scripts": {
     "start": "npx iota-wiki start"
   },
-  "dependencies": {
-    "require-glob": "^4.0.0"
-  },
   "devDependencies": {
-    "iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
+    "@iota-wiki/plugin-tutorial-page": "iota-wiki/plugin-tutorial-page",
+    "iota-wiki-cli": "iota-community/iota-wiki-cli#v2",
+    "require-glob": "^4.0.0"
   },
   "workspaces": [
     "tutorials/*"

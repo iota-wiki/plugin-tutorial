@@ -39,7 +39,7 @@ const config = requireGlob.sync(
 module.exports = {
   plugins: [
     [
-      path.resolve(__dirname, "../lib/page.js"),
+      "@iota-wiki/plugin-tutorial-page",
       {
         route: "/",
       },
