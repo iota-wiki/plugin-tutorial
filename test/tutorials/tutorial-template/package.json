@@ -2,7 +2,7 @@
   "name": "tutorial-template",
   "version": "0.0.0",
   "scripts": {
-    "start": "iota-wiki start"
+    "start": "npx iota-wiki start"
   },
   "devDependencies": {
     "iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
